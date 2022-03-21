@@ -76,7 +76,7 @@ class AutoGumaTest {
 	}
 
 	@ParameterizedTest
-	@CsvSource({ "136", "356" })
+	@CsvSource({ "134", "356" })
 	void testSetSirinaIzvanOpsega(int sirina) {
 		assertThrows(java.lang.IllegalArgumentException.class, () -> a.setSirina(sirina));
 	}
@@ -96,11 +96,11 @@ class AutoGumaTest {
 
 	@Test
 	void testToString() {
-		a = new AutoGuma("195/50ZR20", 30, 160, 80);
+		a = new AutoGuma("195/50ZR20", 15, 160, 80);
 		
 		String s = a.toString();
 		assertTrue(s.contains("195/50ZR20"));
-		assertTrue(s.contains("30"));
+		assertTrue(s.contains("15"));
 		assertTrue(s.contains("160"));
 		assertTrue(s.contains("80"));
 
