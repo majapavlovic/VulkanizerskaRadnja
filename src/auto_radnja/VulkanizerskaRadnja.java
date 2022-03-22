@@ -10,6 +10,7 @@ import auto_radnja.gume.AutoGuma;
  * 
  * @author Maja Pavlovic
  *
+ * @version 1.0
  */
 public class VulkanizerskaRadnja implements Radnja {
 

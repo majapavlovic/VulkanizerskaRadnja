@@ -7,6 +7,7 @@ import auto_radnja.gume.AutoGuma;
  * Interfejs koji predstavlja Radnju
  * @author Maja Pavlovic
  *
+ * @version 1.0
  */
 public interface Radnja {
 	
